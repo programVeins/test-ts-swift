@@ -17,7 +17,7 @@ public struct ApiCall {
     var currentNodeIndex = -1
     var logger: Logger
     
-    init(config: Configuration) {
+    public init(config: Configuration) {
         self.apiKey = config.apiKey
         self.nodes = config.nodes
         self.nearestNode = config.nearestNode
