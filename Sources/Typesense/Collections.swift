@@ -2,7 +2,7 @@ import Foundation
 
 let RESOURCEPATH = "/collections"
 
-struct Collections {
+public struct Collections {
     var apiCall: ApiCall
     
     init(config: Configuration) {

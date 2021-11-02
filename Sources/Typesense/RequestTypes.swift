@@ -1,6 +1,6 @@
 import Foundation
 
-enum RequestType: String {
+public enum RequestType: String {
     case get = "GET"
     case post = "POST"
     case delete = "DELETE"

@@ -5,7 +5,7 @@ let APIKEYHEADERNAME = "X-TYPESENSE-API-KEY"
 let HEALTHY = true
 let UNHEALTHY = false
 
-struct ApiCall {
+public struct ApiCall {
     var nodes: [Node]
     var apiKey: String
     var nearestNode: Node? = nil
