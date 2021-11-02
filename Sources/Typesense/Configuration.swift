@@ -1,6 +1,6 @@
 import Foundation
 
-struct Configuration {
+public struct Configuration {
     
     //Required Config
     var nodes: [Node]

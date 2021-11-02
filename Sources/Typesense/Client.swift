@@ -1,6 +1,6 @@
 import Foundation
 
-struct Client {
+public struct Client {
     
     var configuration: Configuration
     var apiCall: ApiCall
